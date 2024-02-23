@@ -1,5 +1,7 @@
 .btn {
   width: fit-content;
   border-radius: 100px;
-  background: rgb(255, 214, 0);
+  background: $accentColor;
+  cursor: pointer;
+  font-weight: 500;
 }

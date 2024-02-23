@@ -1,0 +1,27 @@
+.whatwedo {
+  &__body {
+    max-width: 1220px;
+    padding-top: 91px;
+  }
+  &__title {
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 103px;
+    color: $titlesColor;
+    margin-bottom: 17px;
+  }
+
+  &__text {
+    width: 571px;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: $tertiaryColor;
+    margin-bottom: 47px;
+  }
+
+  &__btn {
+    padding: 18px 40px;
+  }
+}

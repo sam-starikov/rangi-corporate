@@ -143,6 +143,8 @@ body {
   width: fit-content;
   border-radius: 100px;
   background: rgb(255, 214, 0);
+  cursor: pointer;
+  font-weight: 500;
 }
 
 /* sections */
@@ -282,4 +284,34 @@ body {
 }
 .icon-search:hover {
   color: rgb(255, 214, 0);
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.whatwedo__body {
+  max-width: 1220px;
+  padding-top: 91px;
+}
+.whatwedo__title {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 103px;
+  color: rgb(42, 56, 72);
+  margin-bottom: 17px;
+}
+.whatwedo__text {
+  width: 571px;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgb(104, 113, 134);
+  margin-bottom: 47px;
+}
+.whatwedo__btn {
+  padding: 18px 40px;
 }
