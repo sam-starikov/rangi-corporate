@@ -115,15 +115,6 @@ body {
   color: rgb(51, 56, 69);
 }
 
-h1 {
-  font-size: 60px;
-  font-family: "Segoe UI";
-  font-weight: 500;
-  font-weight: 600;
-  font-weight: 900;
-  font-weight: 400;
-}
-
 .wrapper {
   width: 1920px;
   max-width: 100%;
@@ -144,4 +135,5 @@ h1 {
   width: 1630px;
   max-width: 100%;
   padding: 0 15px;
+  margin: 0 auto;
 }
