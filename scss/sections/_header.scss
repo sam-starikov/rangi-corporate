@@ -1,0 +1,101 @@
+.header {
+  &__body {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-right: 56px;
+  }
+
+  &__logo-text {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    color: $titlesColor;
+    transition: color $fast;
+
+     &:hover{
+        color: $accentColor;
+     }
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    margin-right: 50px;
+    padding: 13px 23px;
+    font-weight: 500;
+    cursor: pointer;
+
+    .icon-burger{
+        font-size: 22px;
+    }
+  }
+
+  &__nav {
+    margin-right: 25px;
+  }
+
+  &__nav-list {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+  }
+
+  &__nav-item {
+     cursor: pointer;
+     transition: color $fast;
+
+     &:hover{
+        color: $accentColor;
+     }
+  }
+
+  &__search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+  }
+
+  &__input {
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    padding: 15px 40px 15px 15px;
+    border: 1px solid rgb(219, 227, 248);
+    border-radius: 10px;
+
+    &::placeholder {
+      color: rgb(149, 149, 149);
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.icon-search {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  font-size: 21px;
+  color: $titlesColor;
+  transition: color $fast;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+  &:hover {
+    color: $accentColor;
+  }
+}

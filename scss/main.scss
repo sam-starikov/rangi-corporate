@@ -1,3 +1,10 @@
+/* settings */
 @import './base/reset';
 @import './base/vars';
 @import './base/base';
+
+/* components */
+@import './components/btn';
+
+/* sections */
+@import './sections/header';
