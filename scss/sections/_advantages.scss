@@ -1,0 +1,46 @@
+.advantages {
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 73px;
+    column-gap: 190px;
+    padding: 110px 0 120px;
+  }
+
+  &__item {
+    display: flex;
+    column-gap: 24px;
+  }
+
+  &__item-icon {
+    font-size: 24px;
+    width: 63px;
+    height: 63px;
+    background-color: $accentColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    border-radius: 10px;
+
+
+
+  }
+
+  &__item-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  &__item-title {
+    width: 200px;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  &__item-text {
+    color: $tertiaryColor;
+  }
+}
