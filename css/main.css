@@ -109,10 +109,19 @@ legend {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: rgb(51, 56, 69);
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Segoe UI";
+  font-weight: 500;
+  font-weight: 600;
+  font-weight: 900;
+  font-weight: 400;
 }
 
 .wrapper {
