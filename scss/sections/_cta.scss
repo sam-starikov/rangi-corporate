@@ -1,0 +1,27 @@
+.cta {
+  &_container {
+    padding-top: 164px;
+    padding-bottom: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    max-width: 755px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 49px;
+    margin-bottom: 22px;
+  }
+
+  &__sub-title {
+    color: $tertiaryColor;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+    padding: 18px 25px;
+  }
+}

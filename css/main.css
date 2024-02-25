@@ -545,3 +545,35 @@ body {
 .rating-info__card-text {
   color: rgb(78, 87, 98);
 }
+
+.cta_container {
+  padding-top: 164px;
+  padding-bottom: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.cta__title {
+  max-width: 755px;
+  text-align: center;
+  font-size: 34px;
+  line-height: 49px;
+  margin-bottom: 22px;
+}
+.cta__sub-title {
+  color: rgb(104, 113, 134);
+  margin-bottom: 50px;
+}
+.cta__btn {
+  padding: 18px 25px;
+}
