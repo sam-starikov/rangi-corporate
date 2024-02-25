@@ -1,0 +1,179 @@
+.footer {
+  background-color: $footerBg;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    padding-top: 62px;
+    padding-bottom: 22px;
+  }
+
+  &__logo {
+    color: $white;
+    margin-right: 250px;
+
+    &:hover {
+      color: $accentColor;
+    }
+  }
+
+  &__title {
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: $white;
+
+    &:last-child {
+      flex: 1;
+      text-align: end;
+      padding-right: 120px;
+    }
+
+    &:not(:last-child) {
+      margin-right: 158px;
+    }
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+
+    &:last-child {
+      flex: 1;
+      align-items: end;
+    }
+  }
+
+  &__column-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__column-title {
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: $white;
+    padding-bottom: 25px;
+  }
+
+  &__body {
+    padding-bottom: 75px;
+    display: flex;
+    column-gap: 185px;
+  }
+
+  &__menu {
+    display: flex;
+    flex: 1 0 auto;
+    column-gap: 100px;
+    padding-top: 21px;
+    border-top: 1px solid rgb(59, 69, 79);
+  }
+
+  &__info {
+    padding-top: 16px;
+    flex: 0 0 auto;
+    width: 222px;
+    color: $footerTextColor;
+    font-family: Segoe UI;
+    font-size: 11px;
+    line-height: 17px;
+  }
+
+  &__column-list {
+    font-family: Segoe UI;
+    color: $footerTextColor;
+    font-size: 14px;
+    line-height: 36px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__list-item {
+    padding: 0 7px;
+    border-radius: 5px;
+    &:hover {
+      color: $white;
+      background-color: $accentColor;
+    }
+  }
+
+  &__bottom {
+    background-color: $footerBgBottom;
+  }
+
+  &__bottom-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 84px;
+    font-family: Segoe UI;
+    color: $footerTextColor;
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  &__bottom-logo {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+
+    &:hover {
+      color: $accentColor;
+    }
+  }
+
+  &__email {
+    font-family: Segoe UI;
+    font-size: 18px;
+    line-height: 36px;
+    color: $footerTextColor;
+    margin-bottom: 11px;
+  }
+
+  &__btn {
+    padding: 16px 26px;
+    margin-bottom: 46px;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  &__socials {
+  }
+
+  &__socials-title {
+    color: $white;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 18px;
+  }
+
+  &__socials-icons {
+    display: flex;
+    column-gap: 10px;
+  }
+
+  &__socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36.96px;
+    height: 36.96px;
+    color: rgb(238, 238, 238);
+    font-size: 18px;
+    border-radius: 5px;
+    background: rgb(51, 60, 70);
+
+    &:hover {
+      color: $accentColor;
+    }
+  }
+}
