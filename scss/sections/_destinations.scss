@@ -29,6 +29,12 @@
     display: flex;
     column-gap: 17px;
     align-items: center;
+
+    &:hover {
+      .destinations__icon {
+        background-color: $accentColor;
+      }
+    }
   }
 
   &__icon {

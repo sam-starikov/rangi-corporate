@@ -1,0 +1,53 @@
+.rating-info {
+  &__container {
+    padding-top: 70px;
+  }
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+
+  &__sub-title {
+    width: 535px;
+    margin-bottom: 66px;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+  }
+
+  &__card {
+    padding: 32px 64px 51px 45px;
+    border-radius: 20px;
+    background-color: $grey;
+  }
+
+  &__card-top {
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+    margin-bottom: 14px;
+  }
+
+  &__card-num {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 10px;
+    background: $accentColor;
+  }
+
+  &__card-title {
+    font-size: 20px;
+  }
+
+  &__card-text {
+    color: $secondaryColor;
+  }
+}
